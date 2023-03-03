@@ -9,7 +9,7 @@ def victo():
             print("Men kimman: n")
             if n == "Tursunxon":
                 print("Tog'ri")
-               else:
+            else:
                 print("Bash")
         else:
             print("Bye")
