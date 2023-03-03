@@ -6,6 +6,8 @@ def victo():
         n = input(">> ")
         if n == 1:
             continue
+            print("Men kimman: n")
+            if n == "Tursunxon"
         else:
             print("Bye")
             break
