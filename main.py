@@ -3,16 +3,19 @@ def victo():
     t = True
     while t:
         print("Boshlaysizmi Ha 1/Yo'q 0")
-        n = input(">> ")
+        n = int(input(">> "))
         if n == 1:
-            continue
-            print("Men kimman: n")
-            if n == "Tursunxon":
+            x=input("Ey kimsan: ")
+            if x == "Tursunxonman":
                 print("Tog'ri")
             else:
                 print("Bash")
+            if input('yana o\'ynaysizmi? [1/0]:'):
+                continue
+            else: break
         else:
             print("Bye")
             break
+        
 
 victo()
