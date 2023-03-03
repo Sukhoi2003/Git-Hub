@@ -7,7 +7,10 @@ def victo():
         if n == 1:
             continue
             print("Men kimman: n")
-            if n == "Tursunxon"
+            if n == "Tursunxon":
+                print("Tog'ri")
+               else:
+                print("Bash")
         else:
             print("Bye")
             break
